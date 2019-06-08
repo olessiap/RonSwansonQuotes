@@ -2,10 +2,6 @@ body{
     background: lightcyan;
 }
 
-.app {
-    display: flex;
-    justify-content: center;
-}
 blockquote {
     width: 75%;
     background-color: white;
@@ -20,11 +16,16 @@ blockquote {
 }
 
 button {
-    width:180px;
-    margin-top: 20px;
+    width: 180px;
     height: 40px;
     border-radius: 5px;
     background: cadetblue;
-    color:white;
-    font-size:14px;
+    color: white;
+    font-size: 14px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
