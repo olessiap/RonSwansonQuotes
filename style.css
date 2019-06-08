@@ -1,3 +1,30 @@
 body{
     background: lightcyan;
 }
+
+.app {
+    display: flex;
+    justify-content: center;
+}
+blockquote {
+    width: 75%;
+    background-color: white;
+    padding: 60px;
+    border-radius: 5px;
+    color: grey;
+    font-size: 15px;
+    font-family:sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+button {
+    width:180px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+    background: cadetblue;
+    color:white;
+    font-size:14px;
+}
